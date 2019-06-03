@@ -1,6 +1,4 @@
-.. include:: defined_substitutions.txt
-
-RNA-Seq: Sequence processing and quality control
+Sequence processing and quality control
 ===================================================
 
 **Authors:** Mark P Peterson, Juniata College Jacob T Malloy, Juniata College Vincent P Buonaccorsi, Juniata College James H Marden, Viterbo University
@@ -47,57 +45,4 @@ Lesson Topic Tags
 Competencies and Other Classifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**NIBLSE Bioinformatics**
-
-- C1. Explain the role of computation and data mining in addressing hypothesis-driven and hypothesis-generating questions within the life sciences
-- C3. Apply statistical concepts used in bioinformatics
-- C4. Use bioinformatics tools to examine complex biological problems in evolution, information flow, and other important areas of biology
-- C7. Use command-line bioinformatics tools and write simple computer scripts
-
-
-
-
-.. toctree::
-	:maxdepth: 1
-
-	Lesson cover page <self>
-	Section One <section-1.rst>
-	Section N <section-n.rst>
-	Lesson summary <section-summary.rst>
-	Glossary <section-glossary.rst>
-
-	Delete this example guide page <example_directives_delete.rst>
-..
-
-----
-
-.. Comment: Place Images Below This Line
-   use :width: to give a desired width for your image
-   use :height: to give a desired height for your image
-   replace the image name/location and URL if hyperlinked
-
- .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
-    :width: 500
-    :height: 100
- .. _link : http://link-url
-
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
-
-
-
-.. Comment: Place URLS Below This Line
-
-   # Use this example to ensure that links open in new tabs, avoiding
-   # forcing users to leave the document, and making it easy to update links
-   # In a single place in this document
-
-   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
-
-      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
-
-
-.. |Github Repo Link|  raw:: html
-
-   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
+-  **NIBLSE Bioinformatics** C1. Explain the role of computation and data mining in addressing hypothesis-driven and hypothesis-generating questions within the life sciences, C3. Apply statistical concepts used in bioinformatics, C4. Use bioinformatics tools to examine complex biological problems in evolution, information flow, and other important areas of biology, C7. Use command-line bioinformatics tools and write simple computer scripts

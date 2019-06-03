@@ -76,3 +76,5 @@ def setup(app):
     app.add_stylesheet('gea.css')
     #uncomment to enable table sorting app.add_javascript('jquery.tablesorter.min.js')
     app.add_javascript('gea.js')
+    # enable inline question and answer
+    app.add_javascript('question-answer.js')
