@@ -11,7 +11,7 @@ from recommonmark.transform import AutoStructify
 sys.path.insert(0, os.path.dirname(__file__))
 
 
-rst_prolog = sphinx_fontawesome.prolog
+
 
 from misc.sphinx_conf import *  # noqa
 
