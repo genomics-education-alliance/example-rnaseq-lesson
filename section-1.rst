@@ -68,19 +68,19 @@ substituting your assigned file for files.
 
     .. code:: bash
 
-       mkdir ~/rna-seq-project
+       mkdir /home/gea_user/rna-seq-project
 
   3. Then we will copy our RNA-Seq reads into this folder
 
     .. code:: bash
 
-       cp -r /gcatseek-data ~/rna-seq-project
+       cp -r /home/gea_user/data/ /home/gea_user/rna-seq-project
 
   4. Now let's check the content of our ~/rna-seq-project folder
 
     .. code:: bash
 
-       ls -R rna-seq-project
+       ls -R /home/gea_user/rna-seq-project
 
   As you can see, we have 16 fastq files to analyze. To get the data, we will
   use a program called ``fastqc``. To run the program we use the command ``fastqc``
@@ -90,7 +90,7 @@ substituting your assigned file for files.
 
     .. code:: bash
 
-       cd ~/rna-seq-project/gcatseek-data
+       cd /home/gea_user/rna-seq-project/data
 
   6. We will analyze one file to get familiar with the ``fastqc`` output:
 
@@ -120,12 +120,12 @@ substituting your assigned file for files.
 
     .. code:: bash
 
-       mkdir -p fastqc-results
-       mv *.zip fastqc-results
-       mv *.html fastqc-results
+      mkdir -p /home/gea_user/rna-seq-project/fastqc-results
+      mv *.zip /home/gea_user/rna-seq-project/fastqc-results
+      mv *.html /home/gea_user/rna-seq-project/fastqc-results
 
-You can browse your HTML (website) results in the filebrowser on the left
-(rna-seq-project > gcatseek-data > fastqc-results).
+You can browse your HTML (website) results in the file browser on the
+left (rna-seq-project > fastqc-results).
 
 
 ----

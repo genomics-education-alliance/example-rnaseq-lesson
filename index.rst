@@ -61,8 +61,8 @@ Competencies and Other Classifications
 	:maxdepth: 1
 
 	Lesson cover page <self>
-	Section One <section-1.rst>
-	Section N <section-n.rst>
+	Background <section-1.rst>
+	Trimming bad data <section-2.rst>
 	Lesson summary <section-summary.rst>
 	Glossary <section-glossary.rst>
 
