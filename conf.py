@@ -7,7 +7,7 @@ import sys
 import os
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
-import sphinx_fontawesome
+
 sys.path.insert(0, os.path.dirname(__file__))
 
 

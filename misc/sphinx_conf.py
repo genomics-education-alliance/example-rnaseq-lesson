@@ -4,7 +4,7 @@ import sys
 import os
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
-import sphinx_fontawesome
+
 
 
 extensions = [
