@@ -7,10 +7,7 @@ from recommonmark.transform import AutoStructify
 
 
 
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx_fontawesome'
-]
+extensions = ['sphinx.ext.autodoc']
 
 project = 'YOUR PROJECT NAME HERE'
 copyright = '2019, Genomics Education Alliance'
