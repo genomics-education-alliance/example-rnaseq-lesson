@@ -55,13 +55,14 @@ Competencies and Other Classifications
 - C7. Use command-line bioinformatics tools and write simple computer scripts
 
 
-
+Lesson table of contents
+--------------------------
 
 .. toctree::
 	:maxdepth: 1
 
 	Lesson cover page <self>
-	Background <section-1.rst>
+	Checking data quality <section-1.rst>
 	Trimming bad data <section-2.rst>
 	Lesson summary <section-summary.rst>
 	Glossary <section-glossary.rst>

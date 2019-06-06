@@ -1,1 +1,29 @@
 .. Comment: URLS
+
+.. |Discovery Environment| raw:: html
+
+   <a href="https://de.cyverse.org/de/" target="blank">Discovery Environment</a>
+
+.. |person icon| image:: ./img/personicon.png
+   :width: 25
+   :height: 25
+
+.. |apps icon| image:: ./img/appsicon.png
+   :width: 25
+   :height: 25
+
+.. |figure1| image:: ./img/figure1.png
+   :width: 200
+   :height: 200
+
+.. |figure2| image:: ./img/figure2.png
+   :width: 300
+   :height: 200
+
+.. |figure3| image:: ./img/figure3.png
+   :width: 600
+   :height: 100
+
+.. |figure4| image:: ./img/figure4.png
+   :width: 300
+   :height: 150

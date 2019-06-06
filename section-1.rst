@@ -1,7 +1,10 @@
 .. include:: defined_substitutions.txt
 
-Background
+Checking data quality
 ================================
+
+Background
+-----------------------
 
 After sending off your RNA for sequencing (or downloading it from SRA) and
 waiting patiently, you finally have data! . . . Now what? The files you have
@@ -12,8 +15,7 @@ Next generation sequencing platforms, by virtue of their large outputs, are
 bound to produce some errors. The goal of this module is to identify and remove
 many of these errors.
 
-Checking data quality
-=======================
+
 
   .. admonition:: learning-objectives
 
@@ -23,8 +25,8 @@ Checking data quality
      - Understand the indicators of quality sequence data
      - Manage a large dataset without terror
 
-Checking data quality
------------------------
+Introduction to sequence quality 
+-------------------------------------
 
 The first step of the process of data filtering is simply to see what you have.
 The data are provided to us in a format called “fastq” that includes a quality
@@ -54,15 +56,50 @@ substituting your assigned file for files.
 
 **CyVerse Login and App Launch**
 
-  1. Step one log in to the CyVerse Discovery Environment.
-  2. Go to apps and find GEA app
-  3. Do something in the app and click launch
-  4. Launch the app
+  1. First, login to the CyVerse |Discovery Environment|.
+  2. Click on the |person icon| (preferences), and select Communities.
+
+     |figure1|
+
+  3. In the Communities menu, use the drop-down menu to select *All Communities*
+
+     |figure2|
+
+  4. Click the *Genomics Education Alliance* link, then select **Join**, and
+     confirm again to join.
+
+     |figure3|
+
+  5. Click on the **Apps** button |apps icon| and under *My Communities*
+     select **Genomics Education Alliance**
+  6. Click on the name of the App (**GEA RNA-Seq QC Demo 0.2**)
+  7. In the App, choose the *Notebooks* menu; click :guilabel:`&Browse`
+     to navigate to the location of the notebooks for the demo:
+     (Community Data > gea > rna-seq-qc-demo > notebooks );
+     select :guilabel:`&OK`.
+
+     .. tip::
+        When you select a folder as input from using the
+        file browser, you will not see the content of
+        that folder.
+        For this step, ensure your path is
+        **/iplant/home/shared/gea/rna-seq-qc-demo/notebooks**
+
+  8. In the App, choose the *data* menu; click :guilabel:`&Browse`
+     to navigate to the location of the data for the demo:
+     (Community Data > gea > rna-seq-qc-demo > data )
+  9. Click :guilabel:`&Launch Analysis`.
+  10. Click your notifications, and select the *Access your running analysis here*
+      link. Your Jupyterlab application will usually be available in 3-5 minutes.
 
 
 **Running the App**
 
-  1. Click the notebook in Jupyterlab
+  1. Click the **notebooks** folder in Jupyterlab and click
+     on the *running_fastqc.ipnyb* notebook.
+
+     |figure4|
+
   2. Let's copy the data into a project folder in our home folder. First we will
      make the project folder:
 
